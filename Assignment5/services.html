@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<style>
+
+    .card img{
+        max-height: 200px;
+        object-fit: contain;
+    }
+    .card-body p{
+        text-align: justify;
+        word-break: normal;        /* prevent breaking words */
+        overflow-wrap: break-word; /* wrap only when necessary */
+        hyphens: auto;             /* allow hyphenation (if supported) */
+    }
+
+</style>
+
+<body>
+    <!-- navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+		<div class="container px-3">
+
+			<a class="navbar-brand" href="index.html">LOGO</a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="about.html">About</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link active" href="services.html">Services</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+			</div>
+
+		</div>
+	</nav>
+	<!-- end of navbar -->
+
+    <!-- Services section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Our Services</h2>
+                <p class="text-muted">Discover the range of solutions we offer to help your business grow. From development to design, we’re here to support your vision every step of the way.</p>
+            </div>
+
+            <div class="row g-4">
+                
+                <!-- Service 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 p-4">
+                        <img src="web-development.png" class="card-img-top img-fluid" alt="">
+                        <div class="card-body">
+                            <h2 class="cart-title">Web Development</h2>
+                            <p class="card-text">We create responsive, SEO-friendly websites that load fast, look great, and deliver seamless user experiences. From personal portfolios to enterprise platforms, we build websites that work flawlessly across all devices.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 p-4">
+                        <img src="mobile-development.png" class="card-img-top img-fluid" alt="">
+                        <div class="card-body">
+                            <h2 class="cart-title">App Development</h2>
+                            <p class="card-text">Our mobile development team crafts sleek, high-performance apps tailored for Android and iOS. Whether it's a business tool, e-commerce platform, or lifestyle app — we turn ideas into intuitive, user-friendly applications.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 p-4">
+                        <img src="web-design.png" class="card-img-top img-fluid" alt="">
+                        <div class="card-body">
+                            <h2 class="cart-title">UI/UX Design</h2>
+                            <p class="card-text">Great design is more than just looks. We focus on building user journeys that feel natural and intuitive. Our UI/UX design services combine creative visuals with thoughtful usability to ensure your product connects with users.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!-- end of Services section -->
+    
+    <!-- footer -->
+	<footer class="bg-dark text-light text-center py-5">
+		<div>
+			<p class="text-center mb-5">&copy; 2025 ABC Solutions. All rights reserved.</p>
+		</div>
+
+		<div class="d-flex flex-column flex-md-row justify-content-center gap-5">
+			<a href="https://www.facebook.com" class="text-light display-5">
+				<i class="bi bi-facebook"></i>
+			</a>
+			<a href="https://www.instagram.com" class="text-light display-5">
+				<i class="bi bi-instagram"></i>
+			</a>
+			<a href="https://x.com" class="text-light display-5">
+				<i class="bi bi-twitter"></i>
+			</a>
+			<a href="https://github.com" class="text-light display-5">
+				<i class="bi bi-github"></i>
+			</a>
+		</div>
+	</footer>
+	<!-- end of footer -->
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+</body>
+</html>
